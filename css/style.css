@@ -1,10 +1,37 @@
 
 
 p{
-    color: rgb(74, 221, 6);
+    color: rgb(225, 99, 241);
+}
+
+b{
+    font-weight: bold;
+    color: rgb(243, 187, 3);
+}
+
+.test{
+    background-color: rgb(135, 247, 185);
 }
 
 h1{
     font-size: 20px;
     color: rgb(223, 3, 243);
+}
+
+div{
+    border: 2px solid rgb(3, 243, 231);
+}
+
+label{
+    font-size: 16px;
+    color: rgb(99, 243, 3);
+}
+
+input{
+    background-color: rgb(243, 136, 3);
+}
+
+button{
+    background-color: rgb(99, 141, 243);
+    color: white;
 }
