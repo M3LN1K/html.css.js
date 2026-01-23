@@ -1,16 +1,46 @@
-header{
-    /* позиционирование */
+/* Разобрать что написала нейронка, поставить комменты!!!!!!! */
+
+/* Сброс стандартных отступов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
-    height: 50px;
-
-    /* цвет и картинки */
+    height: 70px;
     background-color: rgb(122, 85, 3);
+    display: flex;           /* Включаем flexbox */
+    align-items: center;     /* Выравниваем по вертикали по центру */
+    padding-left: 20px;      /* Внутренний отступ слева 20px */
+    z-index: 1000;
+}
 
-    /* текст */
-    text-align: center;
-    
+/* Контейнер для логотипа и текста */
+.logo-container {
+    display: flex;           /* Делаем контейнер flex */
+    align-items: center;     /* Выравниваем элементы по центру вертикально */
+    gap: 15px;               /* Расстояние между логотипом и текстом */
+}
+
+/* Логотип */
+.logo-container img {
+    height: 50px;           /* Фиксированная высота */
+    width: auto;            /* Ширина пропорционально */
+    object-fit: contain;    /* Сохраняет пропорции */
+}
+
+/* Текст логотипа */
+.logo-container h1 {
+    color: rgb(233, 7, 7);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;              /* Убираем стандартные отступы h1 */
 }
 body{
     /* цвет и картинки */
